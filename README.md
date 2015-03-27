@@ -41,7 +41,7 @@ connection.register({
 });
 ```
 
-The clientoptions are passed directly to the [lumberjack-protocol module](https://github.com/benbria/node-lumberjack-protocol) and the tlsOptions are passed to the node.js tls socket connection directly.
+The clientoptions are passed to the [lumberjack-protocol module](https://github.com/benbria/node-lumberjack-protocol) and the tlsOptions are passed to the node.js tls socket connection directly.
 
 ## Security
 
