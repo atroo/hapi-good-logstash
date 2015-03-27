@@ -45,4 +45,6 @@ The clientoptions are passed to the [lumberjack-protocol module](https://github.
 
 ## Security
 
-We use a patched version of logstash and the lumberjack input, which only accepts ssl certificates configured in the logstash config, so the socket connection will be reset, if you provide a wrong certificate
+We use a patched version of logstash and the lumberjack input, which only accepts ssl certificates configured in the logstash config, so the socket connection will be reset, if you provide a wrong certificate.
+
+We will soon publish a blog post with a guide how to achieve this.
