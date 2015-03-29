@@ -1,6 +1,6 @@
 {
     "name": "hapi-good-logstash",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "A good reporter to talk to a logstash server via lumberjack",
     "main": "src/lib.js",
     "scripts": {
