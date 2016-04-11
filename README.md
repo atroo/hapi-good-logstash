@@ -9,6 +9,9 @@ npm install --save hapi-good-logstash
 
 ## Usage
 
+Starting with version 6 good established a new interface for good reporters. If you are using good < 6, then please install v0.0.4 of the logstash reporter and install v1 and greater when using good 6.
+
+
 Example for sending all ops events to logstash
 
 ```javascript
@@ -17,7 +20,7 @@ connection.register({
     options: {
       opsInterval: 15000,
         reporters: [{
-          reporter: require("hapi-good-logstash"),
+          reporter: "hapi-good-logstash",
           args: [{
               ops: '*'
           }, {
