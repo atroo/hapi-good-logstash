@@ -7,10 +7,17 @@ A good reporter to communicate directly with a logstash instance using the lumbe
 npm install --save hapi-good-logstash
 ```
 
+## Supported Good Versions
+
+The Good Interface and the Reporter Interface eventually change from one major version to the next version, see the following compatibility table to select the good-logstash version according to your targeted good version
+
+Good Version | hapi-good-logstah Version
+--- | ---
+< 6 | 0.0.4
+6 | 1.0.0
+7 | not supported yet
+
 ## Usage
-
-Starting with version 6 good established a new interface for good reporters. If you are using good < 6, then please install v0.0.4 of the logstash reporter and install v1 and greater when using good 6.
-
 
 Example for sending all ops events to logstash
 
